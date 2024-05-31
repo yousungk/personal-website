@@ -1,10 +1,12 @@
 export default function Resume() {
   return (
-    <main>
+    <main className="m-20">
       <div>
-        <div className="font-bold">About Me</div>
-        <div>Yousung (Ally) Kim</div>
-        <div className="flex flex-row content-center items-center space-x-3">
+        <div className="space-y-2">
+          <div className="font-bold text-4xl">Yousung (Ally) Kim</div>
+          <div>yousungkim98@gmail.com | (201) 370-3231 </div>
+        </div>
+        <div className="flex flex-row content-center items-center space-x-4 my-2">
           <div className="items-center">
             <a href="mailto:yousungkim98@gmail.com">
               <svg
@@ -61,50 +63,310 @@ export default function Resume() {
               </svg>
             </a>
           </div>
-          <div className="flex flex-row items-center space-x-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              class="size-6"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z"
-                clip-rule="evenodd"
-              />
-            </svg>
-            <div>201-370-3231</div>
-          </div>
         </div>
         <div>Hi, I am...</div>
       </div>
-      <div>
-        <div className="font-bold">Education</div>
-        <div>University of Pennsylvania</div>
-        <div>Princeton University</div>
+      <hr className="border-gray-500 my-5" />
+      <div className="my-5">
+        <span className="font-bold text-2xl">Education</span>
+        <div className="flex flex-row place-content-between mt-3">
+          <div>
+            <div className="font-bold text-lg">
+              University of Pennsylvania, School of Engineering and Applied
+              Science
+            </div>
+            <div>Masters of Science, Computer Science</div>
+            <div>GPA: 4.0</div>
+          </div>
+          <div className="rounded-lg bg-gray-200 p-1 px-2 self-start">
+            Expected Dec 2024
+          </div>
+        </div>
+        <div className="flex flex-row place-content-between mt-2">
+          <div className="font-bold text-lg">Princeton University</div>
+          <div className="rounded-lg bg-gray-200 p-1 px-2 self-start">
+            Graduated May 2021
+          </div>
+        </div>
+        <div>Bachelors of Arts, Economics</div>
+        <div>GPA: 3.86, Magna Cum Laude</div>
       </div>
+      <hr className="border-gray-500 my-5" />
       <div>
-        <div className="font-bold">Experience</div>
-        <div>Technology Intern at AT&T Data Analytics and Insights Team</div>
-        <div>Frontend Software Engineer at Keep.ID</div>
-        <div>Research/Data Analyst at The Brattle Group</div>
+        <span className="font-bold text-2xl">Experience</span>
+        <div className="grid grid-cols-4 gap-4 mt-3">
+          <div className="col-span-3">
+            <div className="font-bold text-lg">
+              AT&T Data Analytics and Insights Team
+            </div>
+            <div className="my-2">
+              <span className="rounded-lg bg-red-200 p-1 px-2 font-bold mr-3">
+                Technology Intern
+              </span>
+              <span className="rounded-lg bg-white p-1 px-2">Dallas, TX</span>
+            </div>
+            <li>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam
+            </li>
+          </div>
+          <span className="col-span-1 rounded-lg bg-gray-200 py-1 px-2 self-start justify-self-end">
+            May - Aug 2024
+          </span>
+        </div>
+        <div className="grid grid-cols-4 gap-4 mt-3">
+          <div className="col-span-3">
+            <div className="font-bold text-lg">Keep.ID</div>
+            <div className="my-2">
+              <span className="rounded-lg bg-red-200 p-1 px-2 font-bold mr-3">
+                Frontend Software Engineer
+              </span>
+              <span className="rounded-lg bg-white p-1 px-2">Remote</span>
+            </div>
+            <li>
+              Refactored codebase to increase static site generation and
+              server-side rendering, by restructuring components to better
+              utilize caching and implementing Next.js rendering tools,
+              improving SEO and increasing web loading time by 30%
+            </li>
+            <li>
+              Developed optional personal information feature that allows users
+              to seamlessly update private information
+            </li>
+          </div>
+          <span className="col-span-1 rounded-lg bg-gray-200 py-1 px-2 self-start justify-self-end">
+            Oct 2023 - Present
+          </span>
+        </div>
+        <div className="grid grid-cols-4 gap-4 mt-3">
+          <div className="col-span-3">
+            <div className="font-bold text-lg">The Brattle Group</div>
+            <div className="my-2">
+              <span className="rounded-lg bg-red-200 p-1 px-2 font-bold mr-3">
+                Research / Data Analyst
+              </span>
+              <span className="rounded-lg bg-white p-1 px-2">
+                New York City
+              </span>
+            </div>
+            <li>
+              Built data pipeline with automated scripts for extracting,
+              standardizing, and ingesting over 40 million unstructured
+              telecommunications data into SQL server, visualized on custom
+              dashboard used by 100+ client lawyers
+            </li>
+            <li>
+              Developed a search algorithm that identifies phone calls
+              referenced in legal documents with 99% match accuracy rate
+            </li>
+            <li>
+              Implemented cloud solution for PDF data extraction, reducing
+              completion time by 75% and error rate to less than 1%
+            </li>
+            <li>
+              Designed an automated investment activity tracing script that
+              calculates minute-level financial return for securities and
+              options, which became the firm’s template script for tracing
+              casework
+            </li>
+            <li>
+              Developed script that calculates cryptocurrency price
+              differentials and transaction flows across different exchange
+              platforms to identify arbitrage opportunities, which helped secure
+              long-term contract with client company
+            </li>
+          </div>
+          <span className="col-span-1 rounded-lg bg-gray-200 py-1 px-2 self-start justify-self-end">
+            May 2021 - Aug 2023
+          </span>
+        </div>
       </div>
-
+      <hr className="border-gray-500 my-5" />
       <div>
-        <div className="font-bold">Projects</div>
-        <div>Data Analytics Dashboard (PowerBI Clone)</div>
-        <div>Multimedia Playlist Generator</div>
-        <div>Image Segmentator App</div>
-        <div>Restaurant Booking Data Analyzer</div>
-        <div>AI Video Conference Emotion Detector</div>
+        <span className="font-bold text-2xl">Projects</span>
+        <div className="grid grid-cols-3 gap-4 mt-3">
+          <div className="border rounded-md p-4">
+            <div className="font-bold text-lg mb-2">
+              Data Analytics Dashboard (PowerBI Clone)
+            </div>
+            <span className="rounded-lg bg-gray-200 p-1 px-2">
+              May - Aug 2024
+            </span>
+            <div className="mt-2">
+              Automated daily scraping of Google restaurant booking data,
+              scheduling execution via crontab
+            </div>
+            <div className="mt-2">
+              Built a Next.js web application that analyzes time series booking
+              data to identify optimal reservation days
+            </div>
+            <div className="mt-3">
+              <span className="rounded-lg bg-blue-200  p-1 px-2 font-bold mr-3">
+                D3.js
+              </span>
+              <span className="rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3">
+                Javascript
+              </span>
+              <span className="rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3">
+                AWS
+              </span>
+            </div>
+          </div>
+          <div className="border rounded-md p-4">
+            <a href="https://github.com/Soohyun-CHOI/multimedia-recommender">
+              <div className="font-bold text-lg mb-2 hover:underline">
+                Multimedia Playlist Generator
+              </div>
+            </a>
+            <span className="rounded-lg bg-gray-200 p-1 px-2">
+              May - Aug 2024
+            </span>
+            <div className="mt-2">
+              Employed machine learning techniques to tag over a million media
+              items with moods, with streamlined data processing and storage
+              into AWS relational database
+            </div>
+            <div className="mt-2">
+              Optimized MySQL queries to dynamically generate high-scoring
+              playlists tailored to user-selected moods
+            </div>
+            <div className="mt-3">
+              <span className="rounded-lg bg-blue-200  p-1 px-2 font-bold mr-3">
+                D3.js
+              </span>
+              <span className="rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3">
+                Javascript
+              </span>
+              <span className="rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3">
+                AWS
+              </span>
+            </div>
+          </div>
+          <div className="border rounded-md p-4">
+            <a href="https://github.com/yousungk/Warholizer">
+              <div className="font-bold text-lg mb-2 hover:underline">
+                Image Segmentator App
+              </div>
+            </a>
+            <span className="rounded-lg bg-gray-200 p-1 px-2">
+              May - Aug 2024
+            </span>
+            <div className="mt-2">
+              Automated daily scraping of Google restaurant booking data,
+              scheduling execution via crontab
+            </div>
+            <div className="mt-2">
+              Built a Next.js web application that analyzes time series booking
+              data to identify optimal reservation days
+            </div>
+            <div className="mt-3">
+              <span className="rounded-lg bg-blue-200  p-1 px-2 font-bold mr-3">
+                D3.js
+              </span>
+              <span className="rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3">
+                Javascript
+              </span>
+              <span className="rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3">
+                AWS
+              </span>
+            </div>
+          </div>
+          <div className="border rounded-md p-4">
+            <a href="https://github.com/yousungk/nomnomguide-fullstack">
+              <div className="font-bold text-lg mb-2 hover:underline">
+                Restaurant Booking Data Analyzer
+              </div>
+            </a>
+            <span className="rounded-lg bg-gray-200 p-1 px-2">
+              May - Aug 2024
+            </span>
+            <div className="mt-2">
+              Automated daily scraping of Google restaurant booking data,
+              scheduling execution via crontab
+            </div>
+            <div className="mt-2">
+              Built a Next.js web application that analyzes time series booking
+              data to identify optimal reservation days
+            </div>
+            <div className="mt-3">
+              <span className="rounded-lg bg-blue-200  p-1 px-2 font-bold mr-3">
+                D3.js
+              </span>
+              <span className="rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3">
+                Javascript
+              </span>
+              <span className="rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3">
+                AWS
+              </span>
+            </div>
+          </div>
+          <div className="border rounded-md p-4">
+            <a href="https://github.com/mikth3372/DragonHacks">
+              <div className="font-bold text-lg mb-2 hover:underline">
+                AI Video Conference Emotion Detector
+              </div>
+            </a>
+            <span className="rounded-lg bg-gray-200 p-1 px-2">
+              May - Aug 2024
+            </span>
+            <div className="mt-2">
+              Developed a web app featuring integrated video calling and
+              real-time emotion analysis via Hume AI web sockets
+            </div>
+            <div className="mt-2">
+              Interfaced with OpenAI API to suggest responses based on analyzed
+              emotions
+            </div>
+            <div className="font-bold mt-2">
+              Award: Honorable Mention at MLH DragonHacks Hackathon
+            </div>
+            <div className="mt-3">
+              <span className="rounded-lg bg-blue-200  p-1 px-2 font-bold mr-3">
+                D3.js
+              </span>
+              <span className="rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3">
+                Javascript
+              </span>
+              <span className="rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3">
+                AWS
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
+      <hr className="border-gray-500 my-5" />
       <div>
-        <div className="font-bold">Technical Skills</div>
-        <div>Python, C++, Java, Javascript/Typescript, HTML, CSS</div>
-        <div>Next.js, React.js, D3.js, Node.js, Express.js, Tailwind</div>
-        <div>AWS, MongoDB, MySQL, PostgreSQL, SQLite</div>
-        <div>Data Analytics Tools: R, Stata</div>
+        <span className="font-bold text-2xl">Technical Skills</span>
+        <div className="mt-3">
+          <div className="flex flex-row">
+            <div className="font-bold">Languages: </div>
+            <div className="ml-2">
+              {" "}
+              Python, C++, C, Java, Javascript/Typescript, HTML, CSS
+            </div>
+          </div>
+          <div className="flex flex-row">
+            <div className="font-bold">Frameworks: </div>
+            <div className="ml-2">
+              {" "}
+              Next.js, React.js, D3.js, Node.js, Express.js, Tailwind
+            </div>
+          </div>
+          <div className="flex flex-row">
+            <div className="font-bold">Database: </div>
+            <div className="ml-2"> AWS, MongoDB, MySQL, PostgreSQL, SQLite</div>
+          </div>
+          <div className="flex flex-row">
+            <div className="font-bold">Data Analytics: </div>
+            <div className="ml-2"> R, Stata</div>
+          </div>
+        </div>
       </div>
     </main>
   );
