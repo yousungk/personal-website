@@ -1,7 +1,6 @@
 import { Inter } from "next/font/google";
 import { Inconsolata } from "next/font/google";
 import "./globals.css";
-import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
 
 const inter = Inter({ subsets: ["latin"] });
 const inconsolata = Inconsolata({ subsets: ["latin"] });
@@ -14,9 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inconsolata.className}>
-        <AppRouterCacheProvider>{children}</AppRouterCacheProvider>
-      </body>
+      <body className={inconsolata.className}>{children}</body>
     </html>
   );
 }
