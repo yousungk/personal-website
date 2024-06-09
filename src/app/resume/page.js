@@ -133,7 +133,7 @@ export default function Resume() {
             </div>
             <div className="my-2">
               <span className="rounded-lg bg-red-200 p-1 px-2 font-bold mr-3">
-                Technology Intern
+                Software Engineer Intern
               </span>
               <span className="rounded-lg bg-white p-1 px-2">Dallas, TX</span>
             </div>
