@@ -10,7 +10,8 @@ export default function Home() {
           Full-stack developer with experience in business and data analytics.
         </div>
         <div className="text-xl">
-          Computer science masters's student at the University of Pennsylvania.
+          Computer science masters&apos;s student at the University of
+          Pennsylvania.
         </div>
         <div className="flex flex-row space-x-5 pt-6">
           <Link href="/resume">

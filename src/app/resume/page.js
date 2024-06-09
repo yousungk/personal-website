@@ -242,9 +242,9 @@ export default function Resume() {
             </li>
             <li>
               Designed an automated investment activity tracing script that
-              calculates stakeholder's minute-level financial return for
-              securities and options, which became the firm’s template script
-              for tracing casework
+              calculates stakeholder&apos;s minute-level financial return for
+              securities and options, which became the firm&apos;s template
+              script for tracing casework
             </li>
             <li>
               Developed script that calculates cryptocurrency price
@@ -413,13 +413,13 @@ export default function Resume() {
             </a>
             <span className="rounded-lg bg-gray-200 p-1 px-2">Mar 2024</span>
             <div className="mt-2">
-              Web based video conference application that detects participant's
-              emotions real-time
+              Web based video conference application that detects
+              participant&apos;s emotions real-time
             </div>
             <div className="mt-2">
-              Implemented feature that analyzes participant's facial expressions
-              real-time and suggests appropriate conversations to users based on
-              participant's emotion
+              Implemented feature that analyzes participant&apos;s facial
+              expressions real-time and suggests appropriate conversations to
+              users based on participant&apos;s emotion
             </div>
             <div className="font-bold mt-2">
               Best Domain Awards at MLH DragonHacks Hackathon
