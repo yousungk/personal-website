@@ -143,18 +143,21 @@ export default function Resume() {
               spending, invoice, and contracts data
             </li>
             <li>
-              Designed and implemented app store for users to publish and
-              download interactive data reports, which included developing a
-              database of reports and automating reports categorization and tags
-              generation to support accurate search capability
+              Built a feature for publishing and downloading interactive data
+              reports, by designing database, developing pipeline for storing
+              reports metadata, and implementing APIs and optimized SQL queries
+              for efficient reports search
             </li>
             <li>
-              Built usage metrics dashboard by creating pipeline to gather and
-              store web traffic data into cloud-based SQL server
+              Created an admin usage metrics dashboard by developing scripts
+              that collect and store web traffic data
             </li>
             <div className="mt-3">
               <span className="rounded-lg bg-blue-200  p-1 px-2 font-bold mr-3">
-                PHP
+                Node.js
+              </span>
+              <span className="rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3">
+                React.js
               </span>
               <span className="rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3">
                 SQL
@@ -163,10 +166,7 @@ export default function Resume() {
                 REST APIs
               </span>
               <span className="rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3">
-                Javascript
-              </span>
-              <span className="rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3">
-                HTML/CSS
+                Snowflake Cloud
               </span>
             </div>
           </div>
@@ -184,23 +184,17 @@ export default function Resume() {
               <span className="rounded-lg bg-white p-1 px-2">Remote</span>
             </div>
             <li>
+              Developed multi-paged front-end feature that allows users to
+              update personal account information
+            </li>
+            <li>
               Refactored codebase to incorporate static site generation,
               server-side rendering, and advanced caching techniques to create
               low latency web application, reducing web rendering time by 60%
             </li>
-            <li>
-              Developed suite of front-end interfaces, including feature that
-              allow users to update and view optional personal information
-            </li>
             <div className="mt-3">
-              <span className="rounded-lg bg-blue-200  p-1 px-2 font-bold mr-3">
-                Typescript
-              </span>
               <span className="rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3">
                 React.js
-              </span>
-              <span className="rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3">
-                Node.js
               </span>
               <span className="rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3">
                 Java
@@ -210,6 +204,9 @@ export default function Resume() {
               </span>
               <span className="rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3">
                 MongoDB
+              </span>
+              <span className="rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3">
+                Tailwind CSS
               </span>
             </div>
           </div>
@@ -269,9 +266,6 @@ export default function Resume() {
               <span className="rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3">
                 SQL
               </span>
-              <span className="rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3">
-                PowerBI
-              </span>
             </div>
           </div>
           <span className="col-span-1 rounded-lg bg-gray-200 py-1 px-2 self-start justify-self-end">
@@ -317,13 +311,10 @@ export default function Resume() {
             </div>
             <div className="mt-3 flex flex-wrap items-center">
               <div className="my-2 h-7 rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3 text-sm flex items-center">
-                Express.js
+                Node.js
               </div>
               <div className="h-7 rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3 text-sm flex items-center">
                 React.js
-              </div>
-              <div className="h-7 rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3 text-sm flex items-center">
-                Node.js
               </div>
               <div className="h-7 rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3 text-sm flex items-center">
                 MySQL
@@ -440,9 +431,6 @@ export default function Resume() {
               <div className="h-7 rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3 text-sm flex items-center">
                 Javascript
               </div>
-              <div className="h-7 rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3 text-sm flex items-center">
-                React.js
-              </div>
             </div>
           </div>
         </div>
@@ -459,10 +447,11 @@ export default function Resume() {
             </div>
           </div>
           <div className="flex flex-row">
-            <div className="font-bold">Frameworks: </div>
+            <div className="font-bold">Web Development: </div>
             <div className="ml-2">
               {" "}
               React.js, Next,js, Node.js, Express.js, D3.js, Bootstrap, Tailwind
+              CSS, Docker
             </div>
           </div>
           <div className="flex flex-row">
