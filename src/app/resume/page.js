@@ -138,9 +138,9 @@ export default function Resume() {
               <span className="rounded-lg bg-white p-1 px-2">Dallas, TX</span>
             </div>
             <li>
-              Developed internal analytics platform utilized by 2,000+ internal
-              supply chain executives to track and analyze over ~1M supplier
-              spending, invoice, and contracts data
+              Developed internal analytics platform utilized by over 2,000
+              internal supply chain executives to track and analyze over 1M
+              supplier spending, invoice, and contracts data
             </li>
             <li>
               Built a feature for publishing and downloading interactive data
@@ -190,7 +190,8 @@ export default function Resume() {
             <li>
               Refactored codebase to incorporate static site generation,
               server-side rendering, and advanced caching techniques to create
-              low latency web application, reducing web rendering time by 60%
+              low latency web application, reducing web rendering time by 60
+              percent
             </li>
             <div className="mt-3">
               <span className="rounded-lg bg-blue-200 p-1 px-2 font-bold mr-3">
