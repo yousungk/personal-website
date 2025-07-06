@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import mermaid from "mermaid";
 import Link from "next/link";
 
 export default function ChatAppPage() {
