@@ -35,10 +35,11 @@ export default function PlaylistGeneratorPage() {
             playlist generators that focus on a single type of media, this
             platform recommends a collection of different media consisting of
             games, music, movies, TV shows, and books. Suggested media are
-            tailored to user-selected keywords or "moods." For example, users
-            can select moods like "cheerful" and "summer," and our generator
-            will curate a selection of media, such as upbeat music and movies
-            filmed on a sunny day, that reflect the chosen moods. A
+            tailored to user-selected keywords or &quot;moods.&quot; For
+            example, users can select moods like &quot;cheerful&quot; and
+            &quot;summer,&quot; and our generator will curate a selection of
+            media, such as upbeat music and movies filmed on a sunny day, that
+            reflect the chosen moods. A
           </p>
           <p className="text-lg leading-relaxed">
             The main technical focus of the project was designing the database

@@ -35,9 +35,9 @@ export default function VideoConferencePage() {
           <h2 className="text-3xl font-bold mb-4">Project Summary</h2>
           <p className="text-lg leading-relaxed">
             Serenity is a full stack application, with embedded Zoom video
-            conferencing, that analyzes participant's emotions real-time and
-            provides suggestions on what to say/how to behave based on detected
-            emotions.
+            conferencing, that analyzes participant&apos;s emotions real-time
+            and provides suggestions on what to say/how to behave based on
+            detected emotions.
           </p>
         </section>
 
@@ -78,7 +78,7 @@ export default function VideoConferencePage() {
           </p>
           <ol className="list-decimal list-inside text-lg leading-relaxed space-y-2">
             <li>Embedded Zoom video conferencing</li>
-            <li>Real-time visual analysis on participant's emotions</li>
+            <li>Real-time visual analysis on participant&apos;s emotions</li>
             <li>
               Suggestions on what to say/ how to behave based on detected
               emotions
