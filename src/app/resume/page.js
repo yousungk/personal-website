@@ -84,16 +84,16 @@ export default function Resume() {
             </div>
           </div>
           <div className="mb-3">
-            I'm a backend software engineer passionate about building
+            I&apos;m a backend software engineer passionate about building
             distributed, scalable systems that power high-performance
             applications. With a dual background in computer science and
-            finance, I’m particularly interested in the intersection of
+            finance, I&apos;m particularly interested in the intersection of
             technology and financial systems. Outside of work, I enjoy exploring
             new programming languages and studying real-world system
             architectures used across the tech industry.
           </div>
 
-          <div>Let's connect!</div>
+          <div>Let&apos;s connect!</div>
         </div>
         <hr className="border-gray-500 my-5" />
         <div className="my-5">

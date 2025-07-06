@@ -73,7 +73,7 @@ export default function EmailServerPage() {
                 in.
               </li>
               <li>
-                <strong>PASS:</strong> Specifies the user's password.
+                <strong>PASS:</strong> Specifies the user&apos;s password.
               </li>
               <li>
                 <strong>STAT:</strong> Returns the number of messages and the

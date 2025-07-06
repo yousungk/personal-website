@@ -33,8 +33,8 @@ export default function GuiImageSegmentatorPage() {
           <h2 className="text-3xl font-bold mb-4">Project Summary</h2>
           <p className="text-lg leading-relaxed">
             Warholizer is a GUI-based application that converts black and white
-            images into Andy Warhol's inspired images. Users can upload images
-            onto the app and view the converted image directly on the
+            images into Andy Warhol&apos;s inspired images. Users can upload
+            images onto the app and view the converted image directly on the
             application. The main motivation of this project was to learn more
             about the underlying mechanism behind image processing algorithms.
           </p>
@@ -116,8 +116,8 @@ export default function GuiImageSegmentatorPage() {
             <li>Navigate to WarholizerApp and start program on the IDE</li>
             <li>
               Click on upload image button to load an image (should be a black
-              and white image for optimal result). Then click on "Warholize"
-              button to convert image
+              and white image for optimal result). Then click on
+              &quot;Warholize&quot; button to convert image
             </li>
           </ol>
         </section>
